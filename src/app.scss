@@ -1,0 +1,51 @@
+.app{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: rgb(235, 219, 128);
+    position: relative;
+    
+    .top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        div{
+            width: 400px;
+            height: 250px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: white;
+            color: darkred;
+            span{
+                margin-bottom: 10px;
+                font-size: 20px;
+                &.author{
+                    text-align: right;
+                }
+            }
+        }
+       
+    }
+    .bottom{
+        position: relative;
+        button{
+            height: 30px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: cyan;
+        }
+        
+    }
+}
